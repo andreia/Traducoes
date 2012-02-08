@@ -1,5 +1,5 @@
-Crie o seu próprio framework... utilizando os Componentes do Symfony2 (parte 4)
-===============================================================================
+O Componente Routing
+====================
 
 Antes de iniciarmos o tópico de hoje, vamos refatorar um pouco o nosso framework atual, 
 para tornar os templates ainda mais legíveis::

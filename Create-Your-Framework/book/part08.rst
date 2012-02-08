@@ -1,5 +1,5 @@
-Crie o seu próprio framework... utilizando os Componentes do Symfony2 (parte 8)
-===============================================================================
+Testes Unitários
+================
 
 Alguns leitores atentos apontaram alguns bugs sutis mas, mesmo assim, importantes
 no framework que construímos ontem. Ao criar um framework, você deve ter certeza 

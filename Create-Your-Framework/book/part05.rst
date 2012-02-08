@@ -1,5 +1,5 @@
-Crie o seu próprio framework... utilizando os Componentes do Symfony2 (parte 5)
-===============================================================================
+Templates
+=========
 
 O leitor astuto percebeu que o nosso framework tem fixo no código a forma como um 
 "Código" (os templates) específico é executado. Para páginas simples, como as que 

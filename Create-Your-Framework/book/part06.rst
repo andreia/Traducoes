@@ -1,5 +1,5 @@
-Crie o seu próprio framework... utilizando os Componentes do Symfony2 (parte 6)
-===============================================================================
+O Componente HttpKernel: o Resolvedor do Controlador
+====================================================
 
 Você pode pensar que o nosso framework já está bastante sólido e, provavelmente, 
 está certo. Mas, vamos ver como podemos melhorá-lo mesmo assim.

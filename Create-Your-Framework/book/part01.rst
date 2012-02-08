@@ -1,5 +1,5 @@
-Crie o seu próprio framework... utilizando os Componentes do Symfony2 (parte 1)
-===============================================================================
+Introdução
+==========
 
 .. note::
     Esta é uma tradução do artigo do Fabien Potencier, publicado `em seu blog`_.

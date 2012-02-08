@@ -1,5 +1,5 @@
-Crie o seu próprio framework... utilizando os Componentes do Symfony2 (parte 7)
-===============================================================================
+Separação das Responsabilidades (Separation of Concerns)
+========================================================
 
 Um aspecto negativo do nosso framework atual é que, precisamos copiar e colar o
 código em ``front.php`` toda vez que criamos um novo site. 40 linhas de código não é

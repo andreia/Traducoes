@@ -1,5 +1,5 @@
-Crie o seu próprio framework... utilizando os Componentes do Symfony2 (parte 2)
-===============================================================================
+O Componente HttpFoundation
+===========================
 
 Antes de mergulhar na refatoração do código, primeiro, eu quero voltar um passo e 
 verificar porque você gostaria de usar um framework em vez de manter as suas

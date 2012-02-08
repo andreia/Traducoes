@@ -1,5 +1,5 @@
-Crie o seu próprio framework... utilizando os Componentes do Symfony2 (parte 3)
-===============================================================================
+O Front Controller
+==================
 
 Até agora, a nossa aplicação é simplista, pois, temos apenas uma página. Para
 apimentar as coisas um pouco, vamos adicionar uma outra página que diz
