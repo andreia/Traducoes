@@ -7,14 +7,14 @@ facilmente acessar o ciclo de vida do framework para modificar a forma como o pe
 manipulado.
 
 Que tipo de *hooks* estamos falando? Autenticação ou armazenamento em cache, por exemplo. 
-Para ser flexível, os *hooks* devem ser plug-and-play, os que você "registra"
+Para serem flexíveis, os *hooks* devem ser plug-and-play, os que você "registra"
 para uma aplicação são diferentes do próximo, dependendo da sua necessidade
 específica. Muitos softwares têm um conceito semelhante, como o Drupal ou Wordpress. Em 
 algumas linguagens, existe um padrão como o `WSGI`_ no Python ou o `Rack`_ no Ruby.
 
-Como não existe um padrão para PHP, vamos usar um *design pattern* bem conhecido,
+Por não existir um padrão para PHP, vamos usar um *design pattern* bem conhecido,
 o *Observer*, para permitir que qualquer tipo de comportamento seja anexado ao nosso
-framework; o componente EventDispatcher do Symfony2 implementa uma versão leve
+framework; o componente *EventDispatcher* do Symfony2 implementa uma versão leve
 deste padrão:
 
 .. code-block:: javascript
@@ -32,14 +32,14 @@ deste padrão:
         }
     }
 
-Como isso funciona? O *dispatcher*, o objeto central do sistema de *dispatcher* de eventos, 
+Como isso funciona? O *dispatcher*, o objeto central do sistema *dispatcher* de eventos, 
 notifica os *listeners* (ou ouvintes) de um *evento* enviado à ele. Dito de outra forma:
 o seu código envia um evento para o *dispatcher*, o *dispatcher* notifica todos os
 *listeners* registrados para o evento, e cada *listener* faz o que desejar
 com o evento.
 
 Como exemplo, vamos criar um *listener* que adiciona o código do Google Analytics de forma 
-transparente para todas as respostas.
+transparente à todas as respostas.
 
 Para fazer ele funcionar, o framework deve enviar um evento pouco antes de retornar
 a instância de Resposta::
